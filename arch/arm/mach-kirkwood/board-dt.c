@@ -192,6 +192,7 @@ static const char * const kirkwood_dt_board_compat[] = {
 	"plathome,openblocks-a6",
 	"usi,topkick",
 	"zyxel,nsa310",
+	"zyxel,nsa325",
 	NULL
 };
 
