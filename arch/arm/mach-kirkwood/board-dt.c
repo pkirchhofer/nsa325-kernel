@@ -111,6 +111,9 @@ static void __init kirkwood_dt_init(void)
 	if (of_machine_is_compatible("globalscale,sheevaplug"))
 		sheevaplug_dt_init();
 
+	if (of_machine_is_compatible("zyxel,nsa325"))
+		nsa325_dt_init();
+
 	if (of_machine_is_compatible("dlink,dns-kirkwood"))
 		dnskw_init();
 
